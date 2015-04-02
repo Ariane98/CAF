@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <title>Les sorties du CAF Marseille Provence</title>
+</head>
+<body>
+<header></header>
+<nav></nav>
+<div>
+    <form action="action_page.php" method="POST">
+        <label>Type d'activité</label>
+        <select name="type">
+            <option value=1 selected>Rando</option>
+            <option value=2>Escalade</option>
+            <option value=3>Spéléo</option>
+            <option value=4>Rando-Escalade</option>
+        </select>
+        <label>Date</label>
+        <input type="date" name="day">
+        <input type="submit" >
+    </form>
+</div>
+<footer>Copyright FdI 2015</footer>
+</body>
+</html>
